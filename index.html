@@ -237,7 +237,7 @@
         <button type="button" class="search-button" onclick="showPopup()">
             <i class="fas fa-search"></i> SEARCH VERSION
         </button>
-        <form action="https://godmods.godofhacker.online/login_process.php" method="POST" class="form-container">
+                <form action="#" method="POST" class="form-container" onsubmit="return validateLogin(event)">
             <div class="input-group">
                 <label for="game_version">Game Version</label>
                 <input type="text" id="game_version" name="game_version" value="V4" readonly="" required="">
